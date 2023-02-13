@@ -1,0 +1,89 @@
+#container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(#121212, #212b46);
+}
+
+/* === Title === */
+#title{
+    font-size: 85px;
+    color: #fff;
+    text-align: center;
+}
+
+/* === Insert Data === */
+#container-input{
+    background-color: rgba(255, 255, 255, .2);
+    margin: 34px 0;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, .5);
+}
+
+#container-input input{
+    margin-right: 8px;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    font-size: 20px;
+    color: #fff;
+}
+
+#container-input input::placeholder{
+    color: #f1f1f1;
+}
+
+#button-search{
+    border: 0;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform .5s;
+}
+
+#button-search:hover{
+    transform: scale(1.2);
+}
+
+/* === Information === */
+main{
+    width: 500px;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main h2{
+    margin: 16px 0;
+    font-size: 39px;
+}
+
+main span{
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+/* === Media Queries === */ 
+@media (max-width: 620px) {
+    #title{
+        font-size: 60px;
+    }
+
+    main{
+        width: 80%;
+        min-height: 250px;
+    }
+
+    main h2{
+        font-size: 28px;
+    }
+}
