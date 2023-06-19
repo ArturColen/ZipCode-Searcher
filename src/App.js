@@ -7,7 +7,6 @@ function App() {
   const [input, setInput] = useState('');
   const [zipCode, setZipCode] = useState({});
   
-  // Search the zip code data entered by the user
   async function handleSearch() {
     if (input === '') {
       alert('Digite algum CEP!');
