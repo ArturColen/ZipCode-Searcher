@@ -10,7 +10,7 @@ Search and display the main information of a zip code entered by the user.
 * [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML): page structuring, accessibility and semantics
 * [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS): page styling and responsiveness
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript): programming language
-* [React](https://pt-br.reactjs.org/docs/getting-started.html): create user interfaces on web pages
+* [React](https://pt-br.react.dev/blog/2023/03/16/introducing-react-dev): create user interfaces on web pages
 
 ## 📁 Project access
 You can view the hosted page by clicking [here](https://zip-code-searcher.vercel.app).
