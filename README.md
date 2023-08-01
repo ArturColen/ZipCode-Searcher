@@ -6,9 +6,7 @@ Project developed during the [Sujeito programador](https://www.youtube.com/c/suj
 ## 🔨 Project functionality
 Search and display the main information of a zip code entered by the user.
 
-## 💻 Technologies used 
-* [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML): page structuring, accessibility and semantics
-* [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS): page styling and responsiveness
+## 💻 Technologies used
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript): programming language
 * [React](https://pt-br.react.dev/blog/2023/03/16/introducing-react-dev): create user interfaces on web pages
 
